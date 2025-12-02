@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,6 +61,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_DashboardRingkasan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DashboardRingkasan.Designer.cs">
+      <DependentUpon>UC_DashboardRingkasan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DataPembimbing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DataPembimbing.Designer.cs">
+      <DependentUpon>UC_DataPembimbing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DataPerusahaan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DataPerusahaan.Designer.cs">
+      <DependentUpon>UC_DataPerusahaan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DataSiswa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DataSiswa.Designer.cs">
+      <DependentUpon>UC_DataSiswa.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,17 +93,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="UC_DashboardRingkasan.resx">
+      <DependentUpon>UC_DashboardRingkasan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DataPembimbing.resx">
+      <DependentUpon>UC_DataPembimbing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DataPerusahaan.resx">
+      <DependentUpon>UC_DataPerusahaan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DataSiswa.resx">
+      <DependentUpon>UC_DataSiswa.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -87,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\logoo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
