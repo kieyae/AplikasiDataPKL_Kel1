@@ -58,7 +58,7 @@
             this.btn_DataPembimbing.TabIndex = 3;
             this.btn_DataPembimbing.Text = "Data Pembimbing";
             this.btn_DataPembimbing.UseVisualStyleBackColor = true;
-            this.btn_DataPembimbing.Click += new System.EventHandler(this.button4_Click);
+            this.btn_DataPembimbing.Click += new System.EventHandler(this.btn_DataPembimbing_Click);
             // 
             // btn_DataPerusahaan
             // 
@@ -69,7 +69,7 @@
             this.btn_DataPerusahaan.TabIndex = 2;
             this.btn_DataPerusahaan.Text = "Data Perusahaan";
             this.btn_DataPerusahaan.UseVisualStyleBackColor = true;
-            this.btn_DataPerusahaan.Click += new System.EventHandler(this.button3_Click);
+            this.btn_DataPerusahaan.Click += new System.EventHandler(this.btn_DataPerusahaan_Click);
             // 
             // btn_DataSiswaPKL
             // 

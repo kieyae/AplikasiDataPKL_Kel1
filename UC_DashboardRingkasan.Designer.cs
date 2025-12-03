@@ -36,16 +36,16 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.lbl_TotalKelas = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lbl_TotalJurusan = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lbl_TotalSiswa = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.chart_SiswaJurusan = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart_JenisKelamin = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.lbl_TotalJurusan = new System.Windows.Forms.Label();
-            this.lbl_TotalKelas = new System.Windows.Forms.Label();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -66,6 +66,16 @@
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Dashboard";
+            // 
+            // lbl_TotalKelas
+            // 
+            this.lbl_TotalKelas.AutoSize = true;
+            this.lbl_TotalKelas.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TotalKelas.Location = new System.Drawing.Point(104, 31);
+            this.lbl_TotalKelas.Name = "lbl_TotalKelas";
+            this.lbl_TotalKelas.Size = new System.Drawing.Size(14, 17);
+            this.lbl_TotalKelas.TabIndex = 3;
+            this.lbl_TotalKelas.Text = "..\r\n";
             // 
             // textBox3
             // 
@@ -89,6 +99,16 @@
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Dashboard";
+            // 
+            // lbl_TotalJurusan
+            // 
+            this.lbl_TotalJurusan.AutoSize = true;
+            this.lbl_TotalJurusan.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TotalJurusan.Location = new System.Drawing.Point(96, 31);
+            this.lbl_TotalJurusan.Name = "lbl_TotalJurusan";
+            this.lbl_TotalJurusan.Size = new System.Drawing.Size(14, 17);
+            this.lbl_TotalJurusan.TabIndex = 2;
+            this.lbl_TotalJurusan.Text = "..\r\n";
             // 
             // textBox2
             // 
@@ -117,7 +137,7 @@
             // 
             this.lbl_TotalSiswa.AutoSize = true;
             this.lbl_TotalSiswa.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TotalSiswa.Location = new System.Drawing.Point(96, 34);
+            this.lbl_TotalSiswa.Location = new System.Drawing.Point(96, 31);
             this.lbl_TotalSiswa.Name = "lbl_TotalSiswa";
             this.lbl_TotalSiswa.Size = new System.Drawing.Size(14, 17);
             this.lbl_TotalSiswa.TabIndex = 1;
@@ -179,26 +199,6 @@
             this.chart_JenisKelamin.TabIndex = 9;
             this.chart_JenisKelamin.Text = "chart1";
             this.chart_JenisKelamin.Click += new System.EventHandler(this.chart_JenisKelamin_Click);
-            // 
-            // lbl_TotalJurusan
-            // 
-            this.lbl_TotalJurusan.AutoSize = true;
-            this.lbl_TotalJurusan.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TotalJurusan.Location = new System.Drawing.Point(96, 31);
-            this.lbl_TotalJurusan.Name = "lbl_TotalJurusan";
-            this.lbl_TotalJurusan.Size = new System.Drawing.Size(14, 17);
-            this.lbl_TotalJurusan.TabIndex = 2;
-            this.lbl_TotalJurusan.Text = "..\r\n";
-            // 
-            // lbl_TotalKelas
-            // 
-            this.lbl_TotalKelas.AutoSize = true;
-            this.lbl_TotalKelas.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TotalKelas.Location = new System.Drawing.Point(104, 31);
-            this.lbl_TotalKelas.Name = "lbl_TotalKelas";
-            this.lbl_TotalKelas.Size = new System.Drawing.Size(14, 17);
-            this.lbl_TotalKelas.TabIndex = 3;
-            this.lbl_TotalKelas.Text = "..\r\n";
             // 
             // UC_DashboardRingkasan
             // 

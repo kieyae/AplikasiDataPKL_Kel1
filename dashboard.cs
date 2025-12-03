@@ -53,13 +53,13 @@ namespace AplikasiDataPKL
         {
 
         }
-
-        private void button3_Click(object sender, EventArgs e)
+        
+        private void btn_DataPerusahaan_Click(object sender, EventArgs e)
         {
             GantiKonten(new UC_DataPerusahaan());
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn_DataPembimbing_Click(object sender, EventArgs e)
         {
             GantiKonten(new UC_DataPembimbing());
         }
